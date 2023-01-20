@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none ;
+}
+header{
+    height: 100vw;
+    height: 134px;
+    background-color: #edf2ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.header .wrapper{
+    width: 1220px;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu{
+    width: 452px;
+    height: 50px;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.header_red{
+    font-weight: 700;
+    color: #e06733;
+}
+
+.header_link{
+    transition: 0.3s;
+}
+.header_link:hover {
+    color: #e06733;
+    font-weight: 700;
+}
+
+.green{
+    color: green;
+}
+
+main{
+    font-family: 'Inika', serif;
+}
+
+.welcome{
+    width: 100vw;
+    height: 532px;
+    background-color: #edf2ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.welcome .wrapper{
+    width: 1220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #e06733;
+    color: black;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.buttom:hover{
+    background-color: #e06733;
+    color: white;
+    cursor: pointer;
+}
+
+.main_text{
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #636060;
+}
+
+.main_text h1{
+    font-size: 45px;
+}
+.main_text p {
+    font-size: 20px;
+    line-height: 35px;
+}
