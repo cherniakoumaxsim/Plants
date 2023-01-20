@@ -131,3 +131,54 @@ main{
     font-size: 20px;
     line-height: 35px;
 }
+
+.orange{
+    color: orange;
+}
+
+.aboutsas_text {
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #636060;
+}
+
+.aboutsas_text h1{
+    font-family: 'Inika', serif;
+    font-size: 45px;
+    color: #499a18;
+}
+
+.aboutsas_text p{
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.aboutsas{
+    width: 100vw;
+    height: 532px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.aboutsas .wrapper{
+    width: 1220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.amogus_tex{
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #636060;
+}
